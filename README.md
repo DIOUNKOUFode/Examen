@@ -8,7 +8,7 @@ Il comprend : le nom du fromage, le département de fabrication, l'URL de la pag
 
 ##Approche Camembert vs Radar
 <p align="left"><iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
-<p align="right"><iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
+<p align=""><iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
 
 ## Our Standards
 

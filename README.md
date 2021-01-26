@@ -7,7 +7,7 @@
 <iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 <iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 
-## Grille d’images des lions
+## Requête permettant d'afficher la grille d’images des lions
 
 SELECT ?item ?itemLabel ?image WHERE {
   ?item wdt:P31 wd:Q140.

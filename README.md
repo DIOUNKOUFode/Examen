@@ -27,7 +27,7 @@
       <li class="vsm-section logo-section">
         <img
           src="https://vuejs.org/images/logo.png"
-          alt="My Logo"
+          alt="WIN_20201201_10_07_35_Pro"
         >
       </li>
     </template>

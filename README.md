@@ -26,7 +26,7 @@
       <!--Image or svg of website logo-->
       <li class="vsm-section logo-section">
         <img
-          src="https://vuejs.org/images/logo.png"
+          src="‪C:\Users\foded\Desktop\WIN_20201201_10_07_35_Pro.jpg"
           alt="WIN_20201201_10_07_35_Pro"
         >
       </li>

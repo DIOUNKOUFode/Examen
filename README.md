@@ -9,16 +9,11 @@
 
 ## Grille d’images des lions
 
-SELECT ?item ?itemLabel ?image
-     #defaultView:ImageGrid #-->Vue par défaut 
-WHERE
-{
-	?item wdt:P31 wd:Q140. 
-	OPTIONAL {
-		?item wdt:P18 ?image
-	} 
-	SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-} 
+SELECT ?item ?itemLabel ?image WHERE {
+  ?item wdt:P31 wd:Q140.
+  OPTIONAL { ?item wdt:P18 ?image. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
 
 ## Our Responsibilities
 

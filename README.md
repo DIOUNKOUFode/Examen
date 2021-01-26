@@ -65,7 +65,7 @@ Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
-## Attribution
+## Présédent
 
 <iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 <iframe src="https://data.opendatasoft.com/chart/embed/nuage_de_point/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>

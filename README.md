@@ -26,7 +26,6 @@ SELECT ?item ?itemLabel ?image WHERE {
   OPTIONAL { ?item wdt:P18 ?image. }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-
 '''
 ## Par ordre descendant
 '''
@@ -39,7 +38,6 @@ SELECT ?painting ?paintingLabel ?image WHERE {
 }
 ORDER BY DESC(?sitelinks) 
 '''
-
 ## Requête peremettant d'afficher les lieux où sont conservées des peintures/(nombre de peinture?)
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be

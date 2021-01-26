@@ -27,14 +27,20 @@ SELECT ?item ?itemLabel ?image WHERE {
 }
 
 '''
-## Scope
+## Par ordre descendant
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+SELECT ?painting ?paintingLabel ?image WHERE {
+  ?painting wdt:P31 wd:Q3305213;
+    wdt:P170 wd:Q296;
+    wdt:P18 ?image;
+    wdt:P195 ?lieu.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY DESC(?sitelinks) 
+
+## Requête peremettant d'afficher les lieux où sont conservées des peintures/(nombre de peinture?)
+
+
 
 ## Enforcement
 

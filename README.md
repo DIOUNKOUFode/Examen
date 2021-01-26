@@ -1,6 +1,6 @@
-# Contributor Covenant Code of Conduct
+# SUITE DE L'EXERCICE
 
-## Our Pledge
+## INTRODUCTION
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to making participation in our project and

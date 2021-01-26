@@ -38,5 +38,4 @@ SELECT ?painting ?paintingLabel ?image WHERE {
 }
 ORDER BY DESC(?sitelinks) 
 '''
-## Requête peremettant d'afficher les lieux où sont conservées des peintures/(nombre de peinture?)
 

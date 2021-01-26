@@ -7,7 +7,7 @@
 <iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 <iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 
-'''
+'''sparql
 ## Requête permettant d'afficher la liste des identifiants des peintures de Monet et ses lieux de conservation
 
 SELECT ?painting ?paintingLabel ?image WHERE {

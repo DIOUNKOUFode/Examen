@@ -1,13 +1,11 @@
 # SUITE DE L'EXERCICE
 
-## INTRODUCTION
+## Précédent
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+<p align="center"><iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/filtre_en_polygone/?&static=false&scrollWheelZoom=false"></iframe>)</p>
+<p align="center"><iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
+<p align="center"><iframe src="https://data.opendatasoft.com/chart/embed/nuage_de_point/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
+<p align="center"><iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
 
 ## Our Standards
 
@@ -64,12 +62,6 @@ Further details of specific enforcement policies may be posted separately.
 Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
-
-## Précédent
-
-<p align="align"><iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
-<p align="aliggn"><iframe src="https://data.opendatasoft.com/chart/embed/nuage_de_point/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
-<p align="center"><iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe></p>
 
 
 [homepage]: https://www.contributor-covenant.org

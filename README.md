@@ -1,6 +1,6 @@
 # SUITE DE L'EXERCICE
 
-##*Liste des fromages français:
+[x]Liste des fromages français:
 ##Ce jeu de données réunit la liste de 338 spécialités de fromages françaises. 
 Il comprend : le nom du fromage, le département de fabrication, l'URL de la page Wikipédia française, l'URL de la page Wikipédia anglaise quand elle existait, la photographie quand elle existait, les coordonnées géographiques du département de fabrication, Identifiant du jeu de données: fromagescsv-fromagescsv@public
 

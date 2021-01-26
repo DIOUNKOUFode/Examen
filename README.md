@@ -1,6 +1,7 @@
 ## Welcome to Fodé's Page
+:sparkles: **Welcome to Fode's Projects** :sparkles:
 
-:sparkles: **Welcome to GitHub Projects** :sparkles:
+
 We're so excited that you've decided to create a new project! Now that you're here, let's make sure you know how to get the most out of GitHub Projects.
 - [x] Create a new project
 - [x] Give your project a name

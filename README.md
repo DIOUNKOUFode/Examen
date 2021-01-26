@@ -1,167 +1,78 @@
-<template>
-  <vsm-menu
-    :menu="menu"
-    :base-width="380"
-    :base-height="400"
-    :screen-offset="10"
-    element="header"
-    handler="hover"
-    @open-dropdown="onOpenDropdown"
-    @close-dropdown="onCloseDropdown"
-  >
-    <template #default="{ item }">
-      <!--Dropdown Content-->
-      <!--You can replace it with a separate component if each menu item has its own style-->
-      <!--Dynamic Component Example: https://codepen.io/Alexeykhr/pen/YzPKxpX-->
-      <div class="wrap-content">
-        <div class="wrap-content__block">
-          Header: {{ item.title }}
-        </div>
-        <div class="wrap-content__item">
-          {{ item }}
-        </div>
-      </div>
-    </template>
-    <template #before-nav>
-      <!--Image or svg of website logo-->
-      <li class="vsm-section logo-section">
-        <img
-          src="‪C:\Users\foded\Desktop\WIN_20201201_10_07_35_Pro.jpg"
-          alt="WIN_20201201_10_07_35_Pro"
-        >
-      </li>
-    </template>
-    <template #title="data">
-      <!--Display menu items through slots-->
-      {{ data.item.title }}
-    </template>
-    <template #after-nav>
-      <!--Mobile Burger, buttons, etc-->
-      <!--For the same styles - add the vsm-section-->
-      <li class="vsm-section vsm-mob-hide">
-        <button>My Button</button>
-      </li>
-      <!--Display when user media screen below from $vsm-media (scss)-->
-      <vsm-mob>Mobile Content</vsm-mob>
-    </template>
-  </vsm-menu>
-</template>
+# Contributor Covenant Code of Conduct
 
-<script>
-/* eslint-disable */
-/*
- * This is an example of possible settings, you can also control
- * scss variables, and also you need to add a little style.
- * So copy and delete what you don’t need.
- *
- * After #after-nav and #before-nav it is recommended to use
- * to maintain the correct HTML structure:
- *   <li class="vsm-section">
- */
+## Our Pledge
 
-export default {
-  data() {
-    return {
-      menu: [
-        {
-          // display menu item (or override title slot)
-          title: 'News',
-          // now this is not a link, but a menu item where there is a dropdown
-          dropdown: 'news',
-          // don't want a button element?
-          element: 'span',
-          // menu item can accept all attributes
-          attributes: {
-            // I want more classes! No problem
-            // string, array, object, not matter
-            class: ['my-class1', { 'my-class2': true }],
-            // Custom attributes
-            'data-big': 'yes'
-          },
-          // add some events?
-          listeners: {
-            // all possible native events
-            mouseover: (evt) => {
-              console.log('news hover', evt)
-            }
-          },
-          // just extra properties in the object
-          new_section: false,
-        },
-        {
-          title: 'External Link',
-          attributes: {
-            href: 'https://github.com/Alexeykhr/vue-stripe-menu',
-            target: '_blank'
-          }
-        }
-        // ...
-      ]
-    }
-  },
-  methods: {
-    onOpenDropdown() {
-      console.log('onOpenDropdown')
-    },
-    onCloseDropdown() {
-      console.log('onCloseDropdown')
-    }
-  }
-}
-</script>
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, sex characteristics, gender identity and expression,
+level of experience, education, socio-economic status, nationality, personal
+appearance, race, religion, or sexual identity and orientation.
 
-<style lang="scss">
-// Styles, to quickly start using the component
-// You can delete, change or add your own
+## Our Standards
 
-// Limit the width to 1024px and center
-.vsm-menu {
-  margin: 10px;
-  ul {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-}
+Examples of behavior that contributes to creating a positive environment
+include:
 
-// Let's simplify the work with menu items (logo, menu, buttons, etc)
-.vsm-root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
+
+Examples of unacceptable behavior by participants include:
+
+* The use of sexualized language or imagery and unwelcome sexual attention or
+ advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+ address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+ professional setting
+
+## Our Responsibilities
+
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
+
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
+
+## Scope
+
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
+
+## Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting the project team at alexeykhr@outlook.com. All
+complaints will be reviewed and investigated and will result in a response that
+is deemed necessary and appropriate to the circumstances. The project team is
+obligated to maintain confidentiality with regard to the reporter of an incident.
+Further details of specific enforcement policies may be posted separately.
+
+Project maintainers who do not follow or enforce the Code of Conduct in good
+faith may face temporary or permanent repercussions as determined by other
+members of the project's leadership.
+
+## Attribution
+
+<iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+<iframe src="https://data.opendatasoft.com/chart/embed/nuage_de_point/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+<iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 
 
-// Move all the content to the right and reduce the logo
-.logo-section {
-  flex: 1 1 auto;
-  img {
-    user-select: none;
-    max-width: 40px;
-  }
-}
+[homepage]: https://www.contributor-covenant.org
 
-// All menu items (element props: a, button, span, etc) are
-// made the same in style
-.vsm-section_menu {
-  > * {
-    padding: 0 25px;
-    font-weight: 500;
-    font-family: inherit;
-  }
-}
-
-// Styles for Dropdown Content:
-.wrap-content {
-  padding: 30px;
-  // Set the width manually so that it does not depend
-  // on changing content
-  width: 400px;
-}
-.wrap-content__block {
-  font-weight: bold;
-}
-.wrap-content__item {
-  font-style: italic;
-  font-size: .8rem;
-}
-</style>
+For answers to common questions about this code of conduct, see
+[https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq)

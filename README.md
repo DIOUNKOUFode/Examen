@@ -7,3 +7,16 @@ Il comprend : le nom du fromage, le département de fabrication, l'URL de la pag
 <iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 <iframe src="https://data.opendatasoft.com/chart/embed/nuage_de_point/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 <iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+
+#Afficher sous forme de grille d’images, les tableaux qui dépeignent un lion.
+
+SELECT ?item ?itemLabel ?image
+     #defaultView:ImageGrid #-->Vue par défaut 
+WHERE
+{
+	?item wdt:P31 wd:Q140. 
+	OPTIONAL {
+		?item wdt:P18 ?image
+	} 
+	SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}                       

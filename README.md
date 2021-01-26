@@ -7,6 +7,7 @@
 <iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 <iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 
+'''
 ## Requête permettant d'afficher la grille d’images des lions
 
 SELECT ?item ?itemLabel ?image WHERE {
@@ -15,18 +16,16 @@ SELECT ?item ?itemLabel ?image WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 
-## Our Responsibilities
+## Requête permettant d'afficher la liste des identifiants des peintures de Monet et ses lieux de conservation
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
-
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
-
+SELECT ?painting ?paintingLabel ?image WHERE {
+  ?painting wdt:P31 wd:Q3305213;
+    wdt:P170 wd:Q296;
+    wdt:P18 ?image;
+    wdt:P195 ?lieu.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+'''
 ## Scope
 
 This Code of Conduct applies both within project spaces and in public spaces

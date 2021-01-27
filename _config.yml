@@ -1,14 +1,1 @@
-<main id="post-319488">
-<article>
-<header class="mega-header">
-<style>
-    body::after {
-      opacity: 0.91;
-    }
-    body::before {
-      content: "";
-      background-image: 
-        url(https://css-tricks.com/wp-content/uploads/2020/08/github-actions-image-opt.png);
-    }
-  </style>
-</main>
+

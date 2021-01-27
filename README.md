@@ -1,6 +1,5 @@
-## Exo sur Monet (Wikidata Query)
 
-* Afficher juste les peintures de Monet 
+# SUITE DE L'EXERCICE
 
 ```sparql
 
@@ -12,7 +11,6 @@ SELECT DISTINCT ?peinture WHERE {
 ### Résultat
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fpeinture%20WHERE%20%7B%0A%20%20%20%20%3Fpeinture%20wdt%3AP31%20wd%3AQ3305213%20%3B%20%23%20C%27est%20une%20peinture%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP170%20wd%3AQ296%3B%20%23%20de%20Monet%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
-# SUITE DE L'EXERCICE
 
 ## Liste des fromages français
 '''

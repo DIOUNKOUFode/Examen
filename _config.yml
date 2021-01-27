@@ -1,2 +1,2 @@
 theme: jekyll-theme-cayman
-color: red
+	scrape_interval:  15s 

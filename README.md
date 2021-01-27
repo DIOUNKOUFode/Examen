@@ -131,14 +131,14 @@ Datavisualisation des fromages selon le type de lait
 ````sparql
 ## Requête permettant d'afficher la liste des identifiants des peintures de Monet et ses lieux de conservation
 
-SELECT ?painting ?paintingLabel ?image WHERE {
-  ?painting wdt:P31 wd:Q3305213;
-    wdt:P170 wd:Q296;
-    wdt:P18 ?image;
-    wdt:P195 ?lieu.
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+SELECT DISTINCT ?peinture WHERE {
+  ?peinture wdt:P31 wd:Q3305213;
+    wdt:P170 wd:Q296.
 }
+##Résultat de ma requête
 
+<p align="center">https://query.wikidata.org/sparql?query=SELECT%20DISTINCT%20%3Fpeinture%20WHERE%20%7B%0A%20%20%3Fpeinture%20wdt%3AP31%20wd%3AQ3305213%3B%0A%20%20%20%20wdt%3AP170%20wd%3AQ296.%0A%7D</p>
+```
 ## Requête permettant d'afficher la grille d’images des lions
 
 SELECT ?item ?itemLabel ?image WHERE {

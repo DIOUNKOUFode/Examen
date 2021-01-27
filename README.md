@@ -21,7 +21,7 @@ SELECT DISTINCT ?peinture WHERE {
 
 
 ## Requête permettant d'afficher la liste des identifiants des peintures de Monet et ses lieux de conservation
-````sparql
+```sparql
 SELECT DISTINCT ?peinture WHERE {
   ?peinture wdt:P31 wd:Q3305213;
     wdt:P170 wd:Q296.
@@ -33,7 +33,9 @@ SELECT DISTINCT ?peinture WHERE {
 
 
 ## Requête permettant d'afficher les lables et les images associés
+
 ```sparql
+
 #defaultView:ImageGrid
 SELECT DISTINCT ?peinture ?peintureLabel ?image WHERE {
   ?peinture wdt:P31 wd:Q3305213;
@@ -41,10 +43,13 @@ SELECT DISTINCT ?peinture ?peintureLabel ?image WHERE {
   OPTIONAL { ?peinture wdt:P18 ?image. }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
 }
+
 ```
 
 ## Requête permettant d'afficher les collections/lieux de conservation
+
 ```sparql
+
 SELECT DISTINCT ?peinture ?peintureLabel ?image ?collection WHERE {
   ?peinture wdt:P31 wd:Q3305213;
     wdt:P170 wd:Q296.
@@ -54,10 +59,13 @@ SELECT DISTINCT ?peinture ?peintureLabel ?image ?collection WHERE {
   }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
 }
+
 ```
 
 ## Requête permettant de compter le nombre de Monet dans chaque collection/lieux de conservation et les afficher par ordre décroissant 
+
 ```sparql
+
 #defaultView:BarChart
 SELECT DISTINCT ?collectionLabel (COUNT(?peinture) AS ?count) WHERE {
   ?peinture wdt:P31 wd:Q3305213;
@@ -67,13 +75,17 @@ SELECT DISTINCT ?collectionLabel (COUNT(?peinture) AS ?count) WHERE {
 }
 GROUP BY ?collectionLabel
 ORDER BY DESC (?collection)
+
 ```
 
 ## Requête permettant d'afficher la grille d’images des lions
+
 ```sparql
+
 SELECT ?item ?itemLabel ?image WHERE {
   ?item wdt:P31 wd:Q140.
   OPTIONAL { ?item wdt:P18 ?image. }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
+
 ```

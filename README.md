@@ -8,9 +8,9 @@
 <iframe src="https://data.opendatasoft.com/chart/embed/camembert0/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 <iframe src="https://data.opendatasoft.com/chart/embed/radar/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 
-''''sparql
+````sparql
 ## Requête permettant d'afficher la liste des identifiants des peintures de Monet et ses lieux de conservation
-''''sparql
+
 SELECT ?painting ?paintingLabel ?image WHERE {
   ?painting wdt:P31 wd:Q3305213;
     wdt:P170 wd:Q296;
@@ -18,17 +18,17 @@ SELECT ?painting ?paintingLabel ?image WHERE {
     wdt:P195 ?lieu.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-''''
+
 ## Requête permettant d'afficher la grille d’images des lions
-''''sparql
+
 SELECT ?item ?itemLabel ?image WHERE {
   ?item wdt:P31 wd:Q140.
   OPTIONAL { ?item wdt:P18 ?image. }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-''''
+
 ## Par ordre descendant
-''''sparql
+
 SELECT ?painting ?paintingLabel ?image WHERE {
   ?painting wdt:P31 wd:Q3305213;
     wdt:P170 wd:Q296;
@@ -37,5 +37,5 @@ SELECT ?painting ?paintingLabel ?image WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 ORDER BY DESC(?sitelinks) 
-''''
+````
 

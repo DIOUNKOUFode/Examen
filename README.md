@@ -1,7 +1,7 @@
 ## Contextualisation:
 
 ```text
-<text style="width: 100vw; height: 100vh; border: none;" Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et de dataVisualisation], nous nous sommes intéressés au jeu de données issue d'un service public certifié et dont la mise à disposition a été rendu possible par l'excellent travail mené par la ville de Nancy: il s'agit du Mémorial virtuel des morts pour la France de Nancy lors des différents conflits militaires.
+<text 800vw; height: 600vh; border: none;" Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et de dataVisualisation], nous nous sommes intéressés au jeu de données issue d'un service public certifié et dont la mise à disposition a été rendu possible par l'excellent travail mené par la ville de Nancy: il s'agit du Mémorial virtuel des morts pour la France de Nancy lors des différents conflits militaires.
 Le choix de ce jeu, tant cher, aux yeux de ses initiateurs ne se justifie point par la richesse des données qu'elle contient mais par l'immense valeur que réprésentent ces hommes.
 En ce sens, ce Mémorial virtuel des morts pour la France de Nancy donne vie à ces vaillant.e.s hommes qui ont garanti des vies à une époque, pour la génération future [celle-là même qui tente aujourd'hui de les immortaliser].
 Cette histoire est blindée de sens, d'émotion, de leçon mais surtout d'énormes sacrifices pour une cause commune. 

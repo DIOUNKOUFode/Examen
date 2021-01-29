@@ -1,7 +1,7 @@
 ## Contextualisation:
 
-<iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/story/743592/?utm_source=embed&utm_campaign=story/743592' target='_top' style='text-decoration:aucun!important'></a></div>
-
+<div class="flourish-embed » data-src="story/743592"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                                                                                                                    
 Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et de dataVisualisation], nous nous sommes intéressés au jeu de données issue d'un service public certifié et dont la mise à disposition a été rendu possible par l'excellent travail mené par la ville de Nancy: il s'agit du Mémorial virtuel des morts pour la France de Nancy lors des différents conflits militaires.
 Le choix de ce jeu, tant cher, aux yeux de ses initiateurs ne se justifie point par la richesse des données qu'elle contient mais par l'immense valeur que réprésentent ces hommes.
 En ce sens, ce Mémorial virtuel des morts pour la France de Nancy donne vie à ces vaillant.e.s hommes qui ont garanti des vies à une époque, pour la génération future [celle-là même qui tente aujourd'hui de les immortaliser].

@@ -12,11 +12,10 @@ Initié à l'occasion des commémorations du Centenaire de la Grance Guerre, le 
 Par ailleurs, "l'application de la loi du 28 février 2012, demandant l’inscription des noms des morts pour la France sur les monuments aux morts communaux, les morts, militaires ou civils, figurant dans cette liste doivent être natifs de Nancy ou y avoir résidé avant leur décès. Ils doivent également avoir reçu la mention « Mort pour la France », créée par la loi du 2 juillet 1915, qui honore la mémoire des victimes de guerre".
 
 Par conséquent, "les données proposées ci-dessous présentent pour chaque soldat le nom du conflit, le nom du soldat, les prénoms, le grade, le corps, le numéro de matricule et le bureau lié, la date de naissance, le département de naissance, la commune de naissance, la date de décès, la pays de décès, le département de décès, la commune de décès et la mention en tant que mort pour la France".
-Nous n'exploiteront pas dans le cadre de ce projet les données la table des sigles explicative qui accompagnes les données.  
 
 Source: Data.gouv.fr [https://www.data.gouv.fr/fr/datasets/memorial-virtuel-des-morts-pour-la-france-de-nancy-lors-des-differents-conflits-militaires/]></text>
 
-
+## *Nous aimerions raconté leur histoire!!!
 
 Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. Nous avons dans un premier temps cherché à savoir le corps armés qui est le plus représentatif dans ce mémorial. :
 

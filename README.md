@@ -1,6 +1,6 @@
 ## Mémorial virtuel des morts pour la France :
 
-<iframe style="width: 50vw; height: 50vh; border: none;" data-src="story/743592"><script src="https://public.flourish.studio/resources/embed.js"></iframe>
+<iframe <div class="flourish-embed » data-src="story/743592"><script src="https://public.flourish.studio/resources/embed.js"></script></div></iframe>
                                                                                                                     
 Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et de dataVisualisation], nous nous sommes intéressés au jeu de données issue d'un service public certifié et dont la mise à disposition a été rendu possible par l'excellent travail mené par la ville de Nancy: il s'agit du Mémorial virtuel des morts pour la France de Nancy lors des différents conflits militaires.
 Le choix de ce jeu, tant cher, aux yeux de ses initiateurs ne se justifie point par la richesse des données qu'elle contient mais par l'immense valeur que réprésentent ces hommes.

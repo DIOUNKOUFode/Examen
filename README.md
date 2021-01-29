@@ -20,7 +20,8 @@ Source: Data.gouv.fr [https://www.data.gouv.fr/fr/datasets/memorial-virtuel-des-
 
 
 
-
+Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. Nous avons dans un premier temps cherché à savoir le corps armés qui est le plus représentatif dans ce mémorial. :
+<div class="flourish-embed flourish-hierarchy » data-src="visualisation/5122962"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Liste des fromages français
 <p align="default">Ce jeu de données réunit la liste de 338 spécialités de fromages françaises.Il comprend : le nom du fromage, le département de fabrication, l'URL de la page Wikipédia française, l'URL de la page Wikipédia anglaise quand elle existait, la photographie quand elle existait, les coordonnées géographiques du département de fabrication, Identifiant du jeu de données: fromagescsv-fromagescsv@public.com</p>

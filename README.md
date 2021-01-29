@@ -5,6 +5,8 @@ Le choix de ce jeu, tant cher, aux yeux de ses initiateurs ne se justifie point 
 En ce sens, ce Mémorial virtuel des morts pour la France de Nancy donne vie à ces vaillant.e.s hommes qui ont garanti des vies à une époque, pour la génération future [celle-là même qui tente aujourd'hui de les immortaliser].
 Cette histoire est blindée de sens, d'émotion, de leçon mais surtout d'énormes sacrifices pour une cause commune. 
 
+<iframe style="width: 50vw; height: 50vh; border: none;" data-src="story/743592"><script src="https://public.flourish.studio/resources/embed.js"></iframe>
+
 Ainsi, raporte-t-on : "c'est pour honorer la mémoire de ces milliers de soldats et transmettre aux générations futures la grandeur de leur sacrifice, que la Ville de Nancy a souhaité initier le recensement de ses Morts pour la France".
 Un site Internet a d'ailleur été créé : http://memorial.nancy.fr. L'idée étant d'élever ces héros à leur valeur : "Des fiches individuelles ont été réalisées afin d'illustrer le parcours de ces hommes. Sur chacune de ces fiches, figure l'état-civil des victimes, leur grade, l'unité à laquelle elles appartenaient, leur lieu de naissance, de dernière résidence (si celle-ci est connue) et selon les cas, leur portrait photographique. Leur contenu dépend néanmoins des sources parvenues jusqu'à ce jour".
 

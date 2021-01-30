@@ -22,7 +22,7 @@ Après avoir nettoyer nos données dans OpenRefine, nous les avons importées da
 <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/story/743592/?utm_source=embed&utm_campaign=story/743592' target='_top' style='text-decoration:aucun!important'><img alt='Made With flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
 
 
-<iframe title="Lieu de naissance" aria-label="Carte" id="datawrapper-chart-LjZFl" src="https://datawrapper.dwcdn.net/LjZFl/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="620"></iframe>
+<iframe title="Lieu de naissance" aria-label="Carte" id="datawrapper-chart-gTk8l" src="https://datawrapper.dwcdn.net/gTk8l/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="391"></iframe>
 
 ## Liste des fromages français
 <p align="default">Ce jeu de données réunit la liste de 338 spécialités de fromages françaises.Il comprend : le nom du fromage, le département de fabrication, l'URL de la page Wikipédia française, l'URL de la page Wikipédia anglaise quand elle existait, la photographie quand elle existait, les coordonnées géographiques du département de fabrication, Identifiant du jeu de données: fromagescsv-fromagescsv@public.com</p>

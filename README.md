@@ -15,7 +15,7 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
 
 Source: Data.gouv.fr [https://www.data.gouv.fr/fr/datasets/memorial-virtuel-des-morts-pour-la-france-de-nancy-lors-des-differents-conflits-militaires/]></text>
 
-## *Nous aimerions raconté leur histoire!!!
+## *Nous aimerions raconté leur histoire!!
 
 Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. Nous avons dans un premier temps cherché à savoir le corps armés qui est le plus important (en terme de quantité) et voici le résultat :
  

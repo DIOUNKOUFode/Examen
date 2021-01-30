@@ -1,6 +1,6 @@
 ## Mémorial virtuel des morts pour la France :
 
-<iframe src='https://flo.uri.sh/visualisation/5122962/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5122962/?utm_source=embed&utm_campaign=visualisation/5122962' target='_top' style='text-decoration :none!important'><img alt='Made with flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
+<iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/story/743592/?utm_source=embed&utm_campaign=story/743592' target='_top' style='text-decoration:aucun!important'><img alt='Made With flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
 
 Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et de dataVisualisation], nous nous sommes intéressés au jeu de données issue d'un service public certifié et dont la mise à disposition a été rendu possible par l'excellent travail mené par la ville de Nancy: il s'agit du Mémorial virtuel des morts pour la France de Nancy lors des différents conflits militaires.
 Le choix de ce jeu, tant cher aux yeux de ses initiateurs ne se justifie point par la richesse des données qu'elle contient mais par l'immense valeur que réprésentent ces hommes. En effet, ce Mémorial donne vie à ces vaillant.e.s Hommes/Femmes qui ont "garanti" la vie à la génération future : celle-là même qui tente aujourd'hui de les immortaliser. Cette histoire est blindée de sens, d'émotion, de leçon mais surtout, reflète d'énormes sacrifices pour une cause commune. 
@@ -19,10 +19,9 @@ Source: Data.gouv.fr [https://www.data.gouv.fr/fr/datasets/memorial-virtuel-des-
 
 Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. Nous avons dans un premier temps cherché à savoir le corps armés qui est le plus représentatif dans ce mémorial. :
 
-<iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/story/743592/?utm_source=embed&utm_campaign=story/743592' target='_top' style='text-decoration:aucun!important'><img alt='Made With flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
+Voici leurs commune de naissance:
 
-
-<iframe title="Lieu de naissance" aria-label="Carte" id="datawrapper-chart-gTk8l" src="https://datawrapper.dwcdn.net/gTk8l/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="391"></iframe>
+<iframe title="Lieu de naissance" aria-label="Carte" id="datawrapper-chart-LjZFl" src="https://datawrapper.dwcdn.net/LjZFl/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="620"></iframe>
 
 ## Liste des fromages français
 <p align="default">Ce jeu de données réunit la liste de 338 spécialités de fromages françaises.Il comprend : le nom du fromage, le département de fabrication, l'URL de la page Wikipédia française, l'URL de la page Wikipédia anglaise quand elle existait, la photographie quand elle existait, les coordonnées géographiques du département de fabrication, Identifiant du jeu de données: fromagescsv-fromagescsv@public.com</p>

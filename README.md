@@ -19,7 +19,7 @@ Source: Data.gouv.fr [https://www.data.gouv.fr/fr/datasets/memorial-virtuel-des-
 
 Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. Nous avons dans un premier temps cherché à savoir le corps armés qui est le plus important (en terme de quantité) et voici le résultat :
  
-<iframe style="width: 50vw; height: 50vh; border: none;" <div class="flourish-embed flourish-hierarchy » data-src="visualisation/5122962"><script src="https://public.flourish.studio/resources/embed.js"></script></div></iframe>
+<iframe src='https://flo.uri.sh/visualisation/5122962/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5122962/?utm_source=embed&utm_campaign=visualisation/5122962' target='_top' style='text-decoration :none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
 
 Voici leurs commune de naissance:
 

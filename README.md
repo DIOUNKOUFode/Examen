@@ -73,7 +73,7 @@ SELECT DISTINCT ?peinture ?peintureLabel ?image ?collection WHERE {
     ?peinture wdt:P18 ?image;
       (wdt:P195/(wdt:P361*)) ?collection.
   }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]".}
 }
 
 ```

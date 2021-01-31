@@ -5,15 +5,15 @@ Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et
 
 * Nous aimerions les connaître davantage!                                                                                                                                     Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. 
 
-* Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils?
+## * Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils (grade) ?
  
 <iframe src='https://flo.uri.sh/visualisation/5122962/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5122962/?utm_source=embed&utm_campaign=visualisation/5122962' target='_top' style='text-decoration :none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
 
-* Où sont-ils nés ?
+## * Où sont-ils nés ?
 
 <iframe title="Lieu de naissance" aria-label="Carte" id="datawrapper-chart-LjZFl" src="https://datawrapper.dwcdn.net/LjZFl/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="620"></iframe>
 
-* Où nous ont-ils quitté ?
+## * Où nous ont-ils quitté ?
 
 <iframe src='https://flo.uri.sh/visualisation/5137319/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5137319/?utm_source=embed&utm_campaign=visualisation/5137319' target='_top' style='text-decoration :none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
 

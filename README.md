@@ -14,9 +14,11 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
 
 Source: Data.gouv.fr [https://www.data.gouv.fr/fr/datasets/memorial-virtuel-des-morts-pour-la-france-de-nancy-lors-des-differents-conflits-militaires/]></text>
 
-## *Nous aimerions raconté leur histoire!
+## *Nous aimerions les connaître davantage!
 
-Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. Nous avons dans un premier temps cherché à savoir le corps armés qui est le plus important (en terme de quantité) et voici le résultat :
+Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. 
+
+Qui sont les hommes qui sont honorés dans ce Mémorial :
  
 <iframe src='https://flo.uri.sh/visualisation/5122962/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5122962/?utm_source=embed&utm_campaign=visualisation/5122962' target='_top' style='text-decoration :none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
 
@@ -31,88 +33,6 @@ La plus part son décédés au même endroit:
 <iframe src='https://flo.uri.sh/visualisation/5137434/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5137434/?utm_source=embed&utm_campaign=visualisation/5137434' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
 
 <iframe src='https://flo.uri.sh/visualisation/5137249/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5137249/?utm_source=embed&utm_campaign=visualisation/5137249' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
-
-
-## Requête permettant d'afficher la liste des identifiants des peintures de Monet et ses lieux de conservation
-```sparql
-SELECT DISTINCT ?peinture WHERE {
-  ?peinture wdt:P31 wd:Q3305213;
-    wdt:P170 wd:Q296.
-}
-```
-
-## Résultat
-
-<iframe style="width: 50vw; height: 50vh; border: none;"  src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fpeinture%20WHERE%20%7B%0A%20%20%3Fpeinture%20wdt%3AP31%20wd%3AQ3305213%3B%0A%20%20%20%20wdt%3AP170%20wd%3AQ296.%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
-
-## Requête permettant d'afficher les lables et les images associés
-
-```sparql
-
-#defaultView:ImageGrid
-SELECT DISTINCT ?peinture ?peintureLabel ?image WHERE {
-  ?peinture wdt:P31 wd:Q3305213;
-    wdt:P170 wd:Q296.
-  OPTIONAL { ?peinture wdt:P18 ?image. }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
-}
-
-```
-## Résultat
-<iframe style="width: 50vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20DISTINCT%20%3Fpeinture%20%3FpeintureLabel%20%3Fimage%20WHERE%20%7B%0A%20%20%3Fpeinture%20wdt%3AP31%20wd%3AQ3305213%3B%0A%20%20%20%20wdt%3AP170%20wd%3AQ296.%0A%20%20OPTIONAL%20%7B%20%3Fpeinture%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
-
-## Requête permettant d'afficher les collections/lieux de conservation
-
-```sparql
-
-SELECT DISTINCT ?peinture ?peintureLabel ?image ?collection WHERE {
-  ?peinture wdt:P31 wd:Q3305213;
-    wdt:P170 wd:Q296.
-  OPTIONAL {
-    ?peinture wdt:P18 ?image;
-      (wdt:P195/(wdt:P361*)) ?collection.
-  }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]".}
-}
-
-```
-## Résultat
-
-<iframe style="width: 50vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fpeinture%20%3FpeintureLabel%20%3Fimage%20%3Fcollection%20WHERE%20%7B%0A%20%20%3Fpeinture%20wdt%3AP31%20wd%3AQ3305213%3B%0A%20%20%20%20wdt%3AP170%20wd%3AQ296.%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fpeinture%20wdt%3AP18%20%3Fimage%3B%0A%20%20%20%20%20%20%28wdt%3AP195%2F%28wdt%3AP361%2a%29%29%20%3Fcollection.%0A%20%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
-
-## Le nombre de Monet dans chaque collection/lieux de conservation et les afficher par ordre décroissant 
-
-```sparql
-
-#defaultView:BarChart
-SELECT DISTINCT ?collectionLabel (COUNT(?peinture) AS ?count) WHERE {
-  ?peinture wdt:P31 wd:Q3305213;
-    wdt:P170 wd:Q296.
-  OPTIONAL { ?peinture (wdt:P195/(wdt:P361*)) ?collection. }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
-}
-GROUP BY ?collectionLabel
-ORDER BY DESC (?collection)
-
-```
-## Résultat
-
-<iframe style="width: 50vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%0A%23defaultView%3ABarChart%0ASELECT%20DISTINCT%20%3FcollectionLabel%20%28COUNT%28%3Fpeinture%29%20AS%20%3Fcount%29%20WHERE%20%7B%0A%20%20%3Fpeinture%20wdt%3AP31%20wd%3AQ3305213%3B%0A%20%20%20%20wdt%3AP170%20wd%3AQ296.%0A%20%20OPTIONAL%20%7B%20%3Fpeinture%20%28wdt%3AP195%2F%28wdt%3AP361%2a%29%29%20%3Fcollection.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%22.%20%7D%0A%7D%0AGROUP%20BY%20%3FcollectionLabel%0AORDER%20BY%20DESC%20%28%3Fcollection%29" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
-
-## Requête permettant d'afficher la grille d’images des lions
-
-```sparql
-
-SELECT ?item ?itemLabel ?image WHERE {
-  ?item wdt:P31 wd:Q140.
-  OPTIONAL { ?item wdt:P18 ?image. }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-}
-
-```
-## Résultat
-
-<iframe style="width: 50vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fitem%20%3FitemLabel%20%3Fimage%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ140.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 
 <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/story/743592/?utm_source=embed&utm_campaign=story/743592' target='_top' style='text-decoration:aucun!important'><img alt='Made With flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>

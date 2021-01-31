@@ -1,6 +1,5 @@
 ## Mémorial virtuel des morts pour la France :
 
-<iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/story/743592/?utm_source=embed&utm_campaign=story/743592' target='_top' style='text-decoration:aucun!important'><img alt='Made With flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
 
 Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et de dataVisualisation], nous nous sommes intéressés au jeu de données issue d'un service public certifié et dont la mise à disposition a été rendu possible par l'excellent travail mené par la ville de Nancy: il s'agit du Mémorial virtuel des morts pour la France de Nancy lors des différents conflits militaires.
 Le choix de ce jeu, tant cher aux yeux de ses initiateurs ne se justifie point par la richesse des données qu'elle contient mais par l'immense valeur que réprésentent ces hommes. En effet, ce Mémorial donne vie à ces vaillant.e.s Hommes/Femmes qui ont "garanti" la vie à la génération future : celle-là même qui tente aujourd'hui de les immortaliser. Cette histoire est blindée de sens, d'émotion, de leçon mais surtout, reflète d'énormes sacrifices pour une cause commune. 
@@ -114,3 +113,7 @@ SELECT ?item ?itemLabel ?image WHERE {
 ## Résultat
 
 <iframe style="width: 50vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fitem%20%3FitemLabel%20%3Fimage%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ140.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
+
+<iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/story/743592/?utm_source=embed&utm_campaign=story/743592' target='_top' style='text-decoration:aucun!important'><img alt='Made With flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
+

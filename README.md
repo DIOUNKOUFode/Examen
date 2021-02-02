@@ -1,6 +1,6 @@
-<p style='color:blue'>
-_Mémorial virtuel des morts pour la France :
-</p>
+<font color='blue'>
+# Mémorial virtuel des morts pour la France :
+</font>
 
 <font color="grey">
 Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et de dataVisualisation], nous nous sommes intéressés au jeu de données issue d'un service public certifié et dont la mise à disposition a été rendu possible par l'excellent travail mené par la ville de Nancy: il s'agit du Mémorial virtuel des morts pour la France lors des différents conflits militaires.  

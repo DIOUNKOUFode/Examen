@@ -1,6 +1,6 @@
 <p style='color:blue'>
  
-Mémorial virtuel des morts pour la France :
+-Mémorial virtuel des morts pour la France :
 </p>
 
 <font color="grey">
@@ -14,7 +14,7 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
 
 <p style='color:blue'>
  
-Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils (grade) ?
+-Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils (grade) ?
 
 </p>
 

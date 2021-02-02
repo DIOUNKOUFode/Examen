@@ -1,6 +1,6 @@
 <p style='color:blue'>
  
- ## Mémorial virtuel des morts pour la France :
+Mémorial virtuel des morts pour la France :
 </p>
 
 <p style='color:black'><font color="red">
@@ -13,7 +13,7 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
 * Nous aimerions les connaître davantage!                                                                                                                                     Après avoir nettoyer nos données dans OpenRefine, nous les avons importées dans Flourish pour les visualiser. </p>
 </font><p style='color:blue'>
  
-## Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils (grade) ?
+Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils (grade) ?
 
 </p>
  
@@ -21,7 +21,7 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
 
 <p style='color:blue'>
  
-## Où sont-ils nés ?
+Où sont-ils nés ?
 
 </p>
 
@@ -30,7 +30,7 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
  
 <p style='color:blue'>
 
-## Où nous ont-ils quitté ?
+Où nous ont-ils quitté ?
 
 </p>
 

@@ -18,11 +18,14 @@ Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils (grade) ?
 
 </p>
 
+Le graphique ci-dessous est une représentation en cercles emballés qui permet d'avoir une vue d'ensemble des différents corps armés élevés à ce rang d'honneur, tant au niveau de la taille (quantité) qu'au niveau de sa composition (grade). Il apparait naturellement dans ces cercles zoomables que les soldats sont plus nombreux, suivi des Sergent, les Caporal et celles et ceux dits "Inconnus". Ces derniers sont très nombreux mais s'ils figurent dans ces données, c'est parce qu'ils l'ont mérité, d'ou notre attachement à ce corps armés. 
+
 <iframe src='https://flo.uri.sh/visualisation/5137249/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5137249/?utm_source=embed&utm_campaign=visualisation/5137249' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 Pour réaliser ce graphique, nous avons été contraint d'aller au préalable dans [OpenRefine] pour nettoyer les données et les rendre compréhensible.
-Rappellons déja que notre fichier csv issue de la plateforme Open Data nation est accompagné d'un fichier contenant la définition des sigles des corps armés. Ainsi, pour nous éviter une alternance entre les deux fichiers, nous avons estimé plus simple de remplacer tous les sigles par les définitions qui nous ont été fournées dans le second fichier complémentaire. Ce qui nous permis de voir un peu plus clair dans cette base de données remplie d'expression militaire. 
-Ce processus d'édition, bien qu'il ait pris du temps, a surtout été très facile à réaliser dans OpenRefine.
+Rappellons déja que notre fichier csv issue de la plateforme Open Data nationale est accompagné d'une table de sigle explicative. Celle-ci contient des définitions de sigles des différents corps armés. Ainsi, pour nous éviter une alternance entre les deux fichiers, nous avons estimé plus simple de remplacer tous les sigles par les définitions qui nous ont été fournées dans le second fichier complémentaire. Ce qui nous permis de voir un peu plus clair dans cette base de données remplie d'expression militaire. 
+Ce processus d'édition, bien qu'il ait pris du temps, a surtout été très facile à réaliser dans OpenRefine. Il arrive que certains corps armés soient dépourvus d'annotation, ils sont alors classés dans les facettes "blanc", nous les avons alors attribué l'appelleation "Grade inconnu" au lieu des les supprimer. 
+
 
 <p style='color:blue'>
  

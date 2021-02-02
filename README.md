@@ -49,7 +49,7 @@ Les coordonnées géographique qui permis la réalisation de ce graphique ont é
 
 
 -----------------
-<p style='color:blue'>
+<p style='color:blue' align='center'>
 Leurs lieux de décés (dernière adresse connue) ?
 </p>
 

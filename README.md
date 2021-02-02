@@ -20,6 +20,10 @@ Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils (grade) ?
 
 <iframe src='https://flo.uri.sh/visualisation/5137249/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5137249/?utm_source=embed&utm_campaign=visualisation/5137249' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
+Pour réaliser ce graphique, nous avons été contraint d'aller au préalable dans [OpenRefine] pour nettoyer les données et les rendre compréhensible.
+Rappellons déja que notre fichier csv issue de la plateforme Open Data nation est accompagné d'un fichier contenant la définition des sigles des corps armés. Ainsi, pour nous éviter une alternance entre les deux fichiers, nous avons estimé plus simple de remplacer tous les sigles par les définitions qui nous ont été fournées dans le second fichier complémentaire. Ce qui nous permis de voir un peu plus clair dans cette base de données remplie d'expression militaire. 
+Ce processus d'édition, bien qu'il ait pris du temps, a surtout été très facile à réaliser dans OpenRefine.
+
 <p style='color:blue'>
  
 Où sont-ils nés ?

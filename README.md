@@ -175,4 +175,3 @@ Notre historique dans Openrefine
 ```
 ----
 Date: 02-02-2021
------

@@ -1,5 +1,5 @@
 -----------------
-<p style="color:red">some **Mémorial virtuel des morts pour la France :**</p>
+<p style="color:red" font=blue> Mémorial virtuel des morts pour la France :</p>
 
 
 -----------------

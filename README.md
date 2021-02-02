@@ -60,7 +60,7 @@ En effet, les lieux de naissances de ces victimes ont été établis à partir d
 <p style='color:blue' align='center'>
 Voir+ <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div></p>
 
-
+-----------------
 |Outils_De_Viz_utilisés: 
   - Openrefine
   - Flourish

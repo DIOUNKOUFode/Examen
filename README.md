@@ -54,10 +54,11 @@ Où nous ont-ils quitté ?
 
 
 -----------------
-Enfin nous avons une représentation cartographique des les lieux de décés.
-*Ps: Si la cartographie des lieux de naissances se rapproches de celles des lieux de décés, cela ne remet pas en cause la pertinence des données. Plusieurs facteurs peuvent expliquer  cela: les lieux de décés ont été obtenu  issue des données de recensement. En effet, on peut supposer 
-
+Enfin nous avons une représentation cartographique des les lieux de décés. A l'instar de la première, cette deuxième carte indique une forte présences des victimes dans le Hauts-de-France, Bourgogne-Franche-Comté, l'Île-de-France et le Grand Est surtout. Les Nancéiens restent logiquement les plus représenté.   
 <iframe src='https://flo.uri.sh/visualisation/5137434/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5137434/?utm_source=embed&utm_campaign=visualisation/5137434' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>
+
+*Ps: Si la cartographie des lieux de naissances se rapproche trop de celle des lieux de décés, cela ne remet pas en cause la pertinence des données mais au contraire cela montre que nos données géographiques générées lors de la reconciliation, concordent avec celles fournies dans la base de données. En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décés, n'a tenu compte que de la dernière résidence connue (si celle-ci est connue).
+L'explication la plus plausible, c'est que la plus part n'aient pas changé de résidence au moment de leur mort. .
 
 
 

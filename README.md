@@ -3,7 +3,7 @@
  ## Mémorial virtuel des morts pour la France :
 </p>
 
-<p style='color:black' font="grey">
+<p style='color:black' font="red">
 Dans la cadre de notre projet de fin d'étude du [Cours d'analyse de données et de dataVisualisation], nous nous sommes intéressés au jeu de données issue d'un service public certifié et dont la mise à disposition a été rendu possible par l'excellent travail mené par la ville de Nancy: il s'agit du Mémorial virtuel des morts pour la France lors des différents conflits militaires.  
 Le choix de ce jeu, tant cher aux yeux de ses initiateurs ne se justifie point par la richesse des données qu'elle contient mais par l'immense valeur que réprésentent ces hommes. En effet, ce Mémorial donne vie à ces vaillant.e.s Hommes/Femmes qui ont "garanti" la vie à la génération future : celle-là même qui tente aujourd'hui de les immortaliser. Cette histoire est blindée de sens, d'émotion, de leçon mais surtout, reflète d'énormes sacrifices pour une cause commune.                                        
 Initié à l'occasion des commémorations du Centenaire de la Grance Guerre, le mémorial sera éditié après la Première Guerre mondiale dans le cimetière du Sud, à proximité d'un carré militaire. A l'origine de ce recensement des morts pour la France, une volonté de la ville de Nancy pour "honorer la mémoire de ces milliers de soldats et transmettre aux générations futures la grandeur de leur sacrifice. Un site Internet a d'ailleur été créé en ce sens : http://memorial.nancy.fr. L'idée étant d'élever ces héros à leur mérite. Aujourd'hui encore, elle compte poursuivre cette démarche jusqu'aux conflits les plus récents afin d'apporter à cette démarche mémorielle l'unité qui lui donnera tout son sens".

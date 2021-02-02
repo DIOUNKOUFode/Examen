@@ -61,9 +61,9 @@ Si la cartographie des lieux de naissances se rapproche trop de celle des lieux 
   - Openrefine
   - Flourish
   - Datawrapper
-Nom: DIOUNNKOU
-Prénom: Fodé
-Date: 02-02-2021
+|Nom: DIOUNNKOU
+|Prénom: Fodé
+|Date: 02-02-2021
 ---
 
 

@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------
-<p style='color:yellow' align='center'> DE QUOI S'AGIT-ILS ?</p>
+<p style='color:'blue red' align='center'> DE QUOI S'AGIT-ILS ?</p>
 
 -----------------------------------------------------------------------------
 

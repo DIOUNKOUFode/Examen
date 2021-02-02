@@ -66,18 +66,6 @@ Par ailleurs, nous avons toujours exporté nos fichiers dans openrefine uniqueme
 Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le tout le long du projet, pour cause, il nous arrive de créer un nouveau projet sur un fichier qu'on a téléchargé à partir des modifications faites la veille sur open refine. Ce qui fait que nous avons plus d'un historique de parcours sur openrefine. Nous avons mis en bas de pages deux notre historique la plus pertinente.
 
 ------------------
-|Outils_De_Viz_utilisés: 
-  - Openrefine
-  - Flourish
-  - Datawrapper
-  
-|Auteur:
-  - Nom: DIOUNNKOU
-  - Prénom: Fodé
-  - M2 Info-com, DEFI
-  - 39016761@parisnanterre.fr
-
------------------
 <p style='color:red' align='center'>
 Notre historique dans Openrefine 
 </p>
@@ -174,4 +162,15 @@ Notre historique dans Openrefine
 ]
 ```
 ----
-Date: 02-02-2021
+|Outils_De_Viz_utilisés: 
+  - Openrefine
+  - Flourish
+  - Datawrapper
+  
+|Auteur:
+  - Nom: DIOUNNKOU
+  - Prénom: Fodé
+  - M2 Info-com, DEFI
+  - 39016761@parisnanterre.fr
+-----------------
+|Date: 02-02-2021

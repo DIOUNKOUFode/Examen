@@ -1,10 +1,14 @@
 -----------------------------------------------------------------------------
-<p style='color:green' align='center'>
+<p style='color:blue' align='center'>
 DE QUOI S'AGIT-ILS ?
 </p>
 
 
 -----------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-----------------
+
+
 
 Dans la cadre de notre projet de fin d'étude du cours d'analyse de données et de datavisualisation, nous nous sommes intéressés au jeu de données issue de la plateforme open data nationale qui a été réalisé par la ville de Nancy: le Mémorial virtuel des morts pour la France lors des différents conflits militaires.  
 Il a été initié à l'occasion des commémorations du Centenaire de la Grande Guerre et édifié après la Première Guerre mondiale dans le cimetière du Sud, à proximité d'un carré militaire.

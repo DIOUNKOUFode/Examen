@@ -22,13 +22,13 @@ Qui sont les héros qui figurent dans ce Mémorial ?
 
 -----------------
 
-Le graphique ci-dessous est une représentation en cercles emballés qui permet d'avoir une vue d'ensemble des héros morts, tant au niveau nombre, que de leur composition (grade). Il apparait naturellement dans ces cercles imbriqués que les	Soldats sont plus nombreux, suivi des Sergents, les Caporals et ceux dits "Inconnus". Ils sont nombreux à être dépourvu de grade dans cette base de données mais s'ils y figurent, c'est parce qu'ils l'ont mérité, d'où toute la logique de les représenter. 
+Pour réaliser ce graphique, nous avons été contraints d'aller au préalable dans « Openrefine » pour nettoyer les données et les rendre compréhensible.
+Rappelons déjà que notre fichier csv issue de la plateforme Open Data nationale est accompagné d'une table de sigle explicative. Celle-ci contient des définitions des différents grades. Ainsi, pour nous éviter une alternance entre les deux fichiers, nous avons estimé plus simple de remplacer tous les sigles par leurs définitions contenues dans le second fichier complémentaire. Ce qui nous a permis de voir un peu plus clair dans cette base de données remplie d’abréviations militaires. 
+Ce processus d'édition, bien qu'il ait pris du temps, a surtout été très facile à réaliser dans « Openrefine ». Il arrive cependant que certaines victimes soient dépourvues d'annotations, ils sont alors classés dans les facettes "blanc". Nous les avons alors attribués le "Grade inconnue" au lieu de les supprimer.
 
 <iframe src='https://flo.uri.sh/visualisation/5137249/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'></div>
 
-Pour réaliser ce graphique, nous avons été contraint d'aller au préalable dans [OpenRefine] pour nettoyer les données et les rendre compréhensible.
-Rappellons déja que notre fichier csv issue de la plateforme Open Data nationale est accompagné d'une table de sigle explicative. Celle-ci contient des définitions de sigles des différents corps armés. Ainsi, pour nous éviter une alternance entre les deux fichiers, nous avons estimé plus simple de remplacer tous les sigles par les définitions qui nous ont été fournées dans le second fichier complémentaire. Ce qui nous permis de voir un peu plus clair dans cette base de données remplie d'expression militaire. 
-Ce processus d'édition, bien qu'il ait pris du temps, a surtout été très facile à réaliser dans OpenRefine. Il arrive que certains corps armés soient dépourvus d'annotation, ils sont alors classés dans les facettes "blanc", nous les avons alors attribué l'appelleation "Grade inconnu" au lieu des les supprimer. 
+Le graphique ci-dessus est donc une représentation sous forme de cercles emballés qui permet d'avoir une vue d'ensemble des héros nancéiens morts au combat, tant au niveau de leur nombre, que de leur hiérarchie. Il y apparait naturellement que les Soldats sont plus nombreux, suivi des Sergents, les Caporaux et ceux dits "Inconnus". 
 
 
 -----------------

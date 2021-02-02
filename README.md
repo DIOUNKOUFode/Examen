@@ -4,7 +4,7 @@
 
 -----------------
 
-<background="red">
+
 Dans la cadre de notre projet de fin d'étude du cours d'analyse de données et de datavisualisation, nous nous sommes intéressés au jeu de données issue de la plateforme open data nationale qui a été réalisé par la ville de Nancy: le Mémorial virtuel des morts pour la France lors des différents conflits militaires.  
 Il a été initié à l'occasion des commémorations du Centenaire de la Grande Guerre et édifié après la Première Guerre mondiale dans le cimetière du Sud, à proximité d'un carré militaire.
 A l'origine de ce recensement, une volonté de la ville de Nancy qui cherche à "honorer la mémoire de ces milliers de soldats et transmettre aux générations futures la grandeur du sacrifice de ses héros. 
@@ -13,7 +13,7 @@ C’est ainsi que "des fiches individuelles ont été réalisées afin d'illustr
 Aujourd'hui encore, la Ville compte poursuivre cette démarche jusqu'aux conflits les plus récents afin d’y apporter toute l'unité qui lui donnera tout son sens".
 
 Source: Data.gouv.fr [https://www.data.gouv.fr/fr/datasets/memorial-virtuel-des-morts-pour-la-france-de-nancy-lors-des-differents-conflits-militaires/]></text>
-</background> 
+
 
 -----------------
 <p style='color:blue' align='center'>
@@ -39,12 +39,11 @@ D'où viennent-ils ?
 
 
 -----------------
-Ce graphique est une représentation cartographique du lieu de naissance de ces Hommes et Femmes disparus au combat. Les différents points animés indiquent le premier endroit où chacun à vu le jour en précisant son identité. La densité des points indiques qu'ils sont pour la plus part nés dans le Grand Est, le Hauts-de-France et en l'ïle-de-France. 
+Ce graphique est une représentation cartographique des états-civils de ces Hommes et Femmes ont disparu au combat. Les différents points animés indiquent le premier endroit où chacun a vu le jour. La densité des points indique également qu'ils en majorité nés dans le Grand Est, le Hauts-de-France et en l'Ile-de-France.
 
 <iframe src='https://flo.uri.sh/visualisation/5137434/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
 
-Les coordonnées géographique qui permis la réalisation de ce graphique ont été obtenu à partir de OpenRefine. Nous disposions déja de la commune de naissance et il a seulement  fallu qu'on procéde à la reconcilation pour obtenir les "coordonées géographiques".
-
+Les coordonnées géographiques ayant permis la réalisation de ce graphique ont été obtenues à partir de Openrefine. Nous disposions déjà dans le fichier originel de la commune de naissance et il a seulement  fallu qu'on procède à la réconciliation.
 
 -----------------
 <p style='color:blue' align='center'>
@@ -53,13 +52,11 @@ Leurs lieux de décés (dernière adresse connue) ?
 
 
 -----------------
-Enfin nous avons une représentation cartographique des les lieux de décés. A l'instar de la première, cette deuxième carte indique une forte présences des victimes dans le Hauts-de-France, Bourgogne-Franche-Comté, l'Île-de-France et le Grand Est surtout. Les Nancéiens restent logiquement les plus représenté.   
+Enfin nous avons ici une représentation cartographique de leurs lieux de décès. A l'instar de la première, cette deuxième carte indique aussi une forte concentration  des victimes dans le Hauts-de-France, Bourgogne-Franche-Comté, l'Île-de-France et le Grand Est surtout. Les Nancéiens restent logiquement les plus représenté.   
 
 <iframe src='https://flo.uri.sh/visualisation/5137319/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
 
-*Ps: Si la cartographie des lieux de naissances se rapproche trop de celle des lieux de décés, cela ne remet pas en cause la pertinence des données mais au contraire cela montre que nos données géographiques générées lors de la reconciliation, concordent avec celles fournies dans la base de données. En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décés, n'a tenu compte que de la dernière résidence connue (si celle-ci est connue).
-L'explication la plus plausible, c'est que la plus part n'aient pas changé de résidence au moment de leur mort. .
-
+Si la cartographie des lieux de naissances se rapproche trop de celle des lieux de décès, cela ne remet pas en cause la pertinence des données. Au contraire cela fait montre de concordance et de fiabilité quant aux données recueillies et de celles générées lors de la réconciliation. En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décès, n'a tenu compte que de la dernière résidence connue (si celle-ci est connue), donc de cette même adresse, pour la plupart, qui figure déjà sur les états-civils. Il n’est donc pas étonnant que certains soldats par exemple aient les mêmes coordonnées comme étant leur lieu de naissance en plus de leur lieu de décès.L'explication la plus plausible, c'est que la plus part n'aient pas changé de résidence au moment de leur mort.
 
 <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
 

@@ -63,9 +63,27 @@ En effet, les lieux de naissances de ces victimes ont été établis à partir d
 -----------------
 En somme, comme vous pourrez le constater dans notre historique de parcours dans openrefine, il nous arrive de déplacé certaine colonne lors de la réalisation des cartes, d'imposer une séparation en deux colonnes pour les latitudes et longitudes pour répondre à la nomenclature du graphique que nous voulons réaliser.
 Par ailleurs, nous avons toujours exporté nos fichiers dans openrefine uniquement au format csv. 
-Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le projet, pour cause, on manipule le fichier en fonction de la représentation qu'on veut se faire. Par conséquent, il arrive qu'on défasse des modifications déjà faites et en refaire de nouvelles.
+Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le tout le long du projet, pour cause, il nous arrive de créer un nouveau projet sur un fichier qu'on a téléchargé à partir des modifications faites la veille sur open refine. Ce qui fait que nous avons plus d'un historique de parcours sur openrefine. Nous avons mis en bas de pages deux notre historique la plus pertinente.
 
-```<p style='color:blue' align='center' Historique Openrefine> 
+------------------
+|Outils_De_Viz_utilisés: 
+  - Openrefine
+  - Flourish
+  - Datawrapper
+  
+|Auteur:
+  - Nom: DIOUNNKOU
+  - Prénom: Fodé
+  - M2 Info-com, DEFI
+  - 39016761@parisnanterre.fr
+  
+-----------------
+02-02-2021 
+
+-----------------
+*Notre historique dans Openrefine 
+
+```<p style='color:blue' align='left' > 
 [
   {
     "op": "core/column-removal",
@@ -155,22 +173,5 @@ Il est important de préciser que notre historique peut ne pas contenir toutes l
     "description": "Move column Grade to position 2"
   }
 ]
+
 ```
-------------------
-|Outils_De_Viz_utilisés: 
-  - Openrefine
-  - Flourish
-  - Datawrapper
-  
-|Auteur:
-  - Nom: DIOUNNKOU
-  - Prénom: Fodé
-  - M2 Info-com, DEFI
-  - 39016761@parisnanterre.fr
-  
------------------
-02-02-2021 
-
-
-
-

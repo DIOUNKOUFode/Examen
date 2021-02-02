@@ -1,5 +1,5 @@
 -----------------
-<p style='color:blue' align='center' size="gras"> De quoi s'agit-il ? </p>
+<p style='color:blue' align='center' size="gras"> DE QUOI S'AGIT-ILS ? </p>
 
 
 -----------------
@@ -16,7 +16,7 @@ Source: Data.gouv.fr [https://www.data.gouv.fr/fr/datasets/memorial-virtuel-des-
 
 -----------------
 <p style='color:blue' align='center'>
-Qui sont les héros qui figurent dans ce Mémorial ?
+QUI SONT CES HEROS QUI FIGURENT CE MEMORIAL ?
 </p>
 
 -----------------
@@ -32,7 +32,7 @@ Le graphique ci-dessus est donc une représentation sous forme de cercles emball
 
 -----------------
 <p style='color:blue' align='center'>
-D'où viennent-ils ?
+D'OU VIENNENT-ILS ?
 </p>
 
 
@@ -46,7 +46,7 @@ Les coordonnées géographiques ayant permis la réalisation de ce graphique ont
 
 -----------------
 <p style='color:blue' align='center'>
-Leurs lieux de décés (dernière adresse connue) ?
+Leurs lieux de décès (dernière adresse connue) ?
 </p>
 
 

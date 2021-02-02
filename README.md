@@ -56,7 +56,9 @@ Si la cartographie des lieux de naissances se rapproche trop de celle des lieux 
 
 En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décès, n'a tenu compte que de leur dernière résidence connue (si celle-ci est connue). Et donc, pour la plupart, c'est la même adresse que celle qui figure déjà sur leurs états-civils. Il n’est donc pas étonnant que la localisationn de certains soldats par exemple reste inchangée. 
 
-<iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
+-----------------
+<p style='color:blue' align='center'>
+Voir+ <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div></p>
 
 
 |Outils_De_Viz_utilisés: 

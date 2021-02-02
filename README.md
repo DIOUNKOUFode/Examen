@@ -47,7 +47,6 @@ Les coordonnées géographiques ayant permis la réalisation de ce graphique ont
 Leurs lieux de décès (dernière adresse connue) ?
 </p>
 
-
 -----------------
 Enfin nous avons ici une représentation cartographique de leurs lieux de décès. A l'instar de la première, cette deuxième carte indique aussi une forte concentration  des victimes dans le Hauts-de-France, Bourgogne-Franche-Comté, l'Île-de-France et le Grand Est surtout. Les Nancéiens restent logiquement les plus représenté.   
 

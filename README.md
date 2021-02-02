@@ -57,7 +57,7 @@ Si la cartographie des lieux de naissances se rapproche trop de celle des lieux 
 <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
 
 
-|OutilsViz_utilisés: 
+|Outils_De_Viz_utilisés: 
   - Openrefine
   - Flourish
   - Datawrapper
@@ -66,6 +66,10 @@ Si la cartographie des lieux de naissances se rapproche trop de celle des lieux 
   - Nom: DIOUNNKOU
   - Prénom: Fodé
   - Date: 02-02-2021
+  
+-----------------
+<p style='color:red' align='left'>M2 Info-com, DEFI
+<p style='color:red' align='right'>39016761@parisnanterre.fr
   
 ---
 

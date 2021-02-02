@@ -20,9 +20,9 @@ QUI SONT CES HEROS QUI FIGURENT CE MEMORIAL ?
 
 -----------------
 
-Pour réaliser ce graphique, nous avons été contraints d'aller au préalable dans « Openrefine » pour nettoyer les données et les rendre compréhensible.
-Rappelons déjà que notre fichier csv issue de la plateforme Open Data nationale est accompagné d'une table de sigle explicative. Celle-ci contient des définitions des différents grades. Ainsi, pour nous éviter une alternance entre les deux fichiers, nous avons estimé plus simple de remplacer tous les sigles par leurs définitions contenues dans le second fichier complémentaire. Ce qui nous a permis de voir un peu plus clair dans cette base de données remplie d’abréviations militaires. 
-Ce processus d'édition, bien qu'il ait pris du temps, a surtout été très facile à réaliser dans « Openrefine ». Il arrive cependant que certaines victimes soient dépourvues d'annotations, ils sont alors classés dans les facettes "blanc". Nous les avons alors attribués le "Grade inconnue" au lieu de les supprimer.
+Pour réaliser ce graphique, nous avons été contraints d'aller au préalable dans « Openrefine » pour nettoyer les données plus perceptibles.
+Rappelons déjà que notre fichier csv issue de la plateforme Open Data nationale est accompagné d'une table de sigle explicative. Celle-ci contient les significations des différents grades. Ainsi, pour nous éviter une alternance entre les deux fichiers tout au long de ce travail, nous avons considéré qu'il serait plus simple de remplacer tous les sigles par leurs significations contenues dans le second fichier complémentaire. Ce qui nous a permis de voir un peu plus clair dans cette base de données remplie d’abréviations militaires. 
+Ce processus d'édition, bien qu'il exige beaucoup de temps, a été d'un apport considérable. Il arrive cependant que certaines victimes dans la base de données soient dépourvues d'annotations, ils sont alors classés dans les facettes "blanc" par openrefine. Nous les avons alors attribués le "Grade inconnue" au lieu de les supprimer.
 
 <iframe src='https://flo.uri.sh/visualisation/5137249/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'></div>
 
@@ -36,11 +36,11 @@ D'OU VIENNENT-ILS ?
 
 
 -----------------
-Ce graphique est une représentation cartographique des états-civils de ces Hommes et Femmes qui ont disparu au combat. Les différents points animés indiquent le premier endroit où chacun a vu le jour. La densité des points indique également qu'ils en majorité nés dans le Grand Est, le Hauts-de-France et en l'Ile-de-France.
+Ce graphique est une représentation cartographique des lieux de naissance de ces Hommes et Femmes qui ont disparu au combat. Les différents points animés indiquent le premier endroit où chacun a vu le jour. La densité des points indique également qu'ils sont en majorité nés dans le Grand Est, le Hauts-de-France et en l'Ile-de-France.
 
 <iframe src='https://flo.uri.sh/visualisation/5137434/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
 
-Les coordonnées géographiques ayant permis la réalisation de ce graphique ont été obtenues à partir de Openrefine. Nous disposions déjà dans le fichier originel de la commune de naissance et il a seulement  fallu qu'on procède à la réconciliation.
+Les coordonnées géographiques ayant permis la réalisation de ce graphique ont été obtenues à partir de Openrefine. Nous disposions déjà dans le fichier originel des communes de naissance et il a seulement fallu qu'on procède à la réconciliation pour les géolocaliser. 
 
 -----------------
 <p style='color:blue' align='center'>
@@ -52,7 +52,9 @@ Enfin nous avons ici une représentation cartographique de leurs lieux de décè
 
 <iframe src='https://flo.uri.sh/visualisation/5137319/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
 
-Si la cartographie des lieux de naissances se rapproche trop de celle des lieux de décès, cela ne remet pas en cause la pertinence des données. Au contraire cela fait montre de concordance et de fiabilité quant aux données recueillies et de celles générées lors de la réconciliation. En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décès, n'a tenu compte que de la dernière résidence connue (si celle-ci est connue), donc de cette même adresse, pour la plupart, qui figure déjà sur les états-civils. Il n’est donc pas étonnant que certains soldats par exemple aient les mêmes coordonnées comme étant leur lieu de naissance en plus de leur lieu de décès.L'explication la plus plausible, c'est que la plus part n'aient pas changé de résidence au moment de leur mort.
+Si la cartographie des lieux de naissances se rapproche trop de celle des lieux de décès, cela ne doit pas néanmoins remettre en cause la pertinence des données. Au contraire cela fait montre de concordance et de fiabilité des données recueillies et de celles générées lors de la réconciliation. 
+
+En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décès, n'a tenu compte que de leur dernière résidence connue (si celle-ci est connue). Et donc, pour la plupart, c'est la même adresse que celle qui figure déjà sur leurs états-civils. Il n’est donc pas étonnant que la localisationn de certains soldats par exemple reste inchangée. 
 
 <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
 

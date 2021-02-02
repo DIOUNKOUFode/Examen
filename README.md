@@ -65,7 +65,7 @@ En somme, comme vous pourrez le constater dans notre historique de parcours dans
 Par ailleurs, nous avons toujours exporté nos fichiers dans openrefine uniquement au format csv. 
 Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le projet, pour cause, on manipule le fichier en fonction de la représentation qu'on veut se faire. Par conséquent, il arrive qu'on défasse des modifications déjà faites et en refaire de nouvelles.
 
-```Historique Openrefine
+```<p style='color:blue' align='center' Historique Openrefine> 
 [
   {
     "op": "core/column-removal",

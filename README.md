@@ -15,7 +15,7 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
 
 -----------------
 <p style='color:blue' align='center'>
-Qui sont les héros qui figurent dans ce Mémorial ?
+** Qui sont les héros qui figurent dans ce Mémorial ? **
 </p>
 
 -----------------

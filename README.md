@@ -18,7 +18,7 @@ Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils (grade) ?
 
 </p>
 
-Le graphique ci-dessous est une représentation en cercles emballés qui permet d'avoir une vue d'ensemble des différents corps armés élevés à ce rang d'honneur, tant au niveau de la taille (quantité) qu'au niveau de sa composition (grade). Il apparait naturellement dans ces cercles zoomables que les soldats sont plus nombreux, suivi des Sergent, les Caporal et celles et ceux dits "Inconnus". Ces derniers sont très nombreux mais s'ils figurent dans ces données, c'est parce qu'ils l'ont mérité, d'ou notre attachement à ce corps armés. 
+Le graphique ci-dessous est une représentation en cercles emballés qui permet d'avoir une vue d'ensemble des héros morts, tant au niveau nombre, que de leur composition (grade). Il apparait naturellement dans ces cercles imbriqués que les	Soldats sont plus nombreux, suivi des Sergents, les Caporals et ceux dits "Inconnus". Ils sont nombreux à être dépourvu de grade dans cette base de données mais s'ils y figurent, c'est parce qu'ils l'ont mérité, d'où toute la logique de les représenter. 
 
 <iframe src='https://flo.uri.sh/visualisation/5137249/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5137249/?utm_source=embed&utm_campaign=visualisation/5137249' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 

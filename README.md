@@ -76,13 +76,13 @@ Il est important de préciser que notre historique peut ne pas contenir toutes l
   - Prénom: Fodé
   - M2 Info-com, DEFI
   - 39016761@parisnanterre.fr
-  
------------------
-02-02-2021 
-
 
 -----------------
-```Notre historique dans Openrefine 
+<p style='color:red' align='center'>
+Notre historique dans Openrefine 
+</p>
+
+```
 [
   {
     "op": "core/column-removal",
@@ -172,5 +172,7 @@ Il est important de préciser que notre historique peut ne pas contenir toutes l
     "description": "Move column Grade to position 2"
   }
 ]
-
 ```
+----
+Date: 02-02-2021
+-----

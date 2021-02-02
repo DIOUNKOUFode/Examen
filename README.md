@@ -35,7 +35,6 @@ D'OU VIENNENT-ILS ?
 </p>
 
 
-
 -----------------
 Ce graphique est une représentation cartographique des états-civils de ces Hommes et Femmes ont disparu au combat. Les différents points animés indiquent le premier endroit où chacun a vu le jour. La densité des points indique également qu'ils en majorité nés dans le Grand Est, le Hauts-de-France et en l'Ile-de-France.
 

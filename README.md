@@ -68,7 +68,7 @@ Si la cartographie des lieux de naissances se rapproche trop de celle des lieux 
   - Date: 02-02-2021
   
 -----------------
-<p style='color:red' align='left'>M2 Info-com, DEFI---39016761@parisnanterre.fr</p>
+<p style='color:red' align='center'>M2 Info-com, DEFI-*-39016761@parisnanterre.fr</p>
  
 
 

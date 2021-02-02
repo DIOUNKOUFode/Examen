@@ -172,5 +172,7 @@ Notre historique dans Openrefine
   - Prénom: Fodé
   - M2 Info-com, DEFI
   - 39016761@parisnanterre.fr
+  
 -----------------
-|Date: 02-02-2021
+Date: 02-02-2021
+ 

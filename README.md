@@ -17,7 +17,7 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
 
 -----------------
 <p style='color:blue' align='center'>
-Combien d'hommes sont honorés dans ce Mémorial et qui sont-ils ?
+Qui sont les héros qui figurent dans ce Mémorial ?
 </p>
 
 
@@ -34,7 +34,7 @@ Ce processus d'édition, bien qu'il ait pris du temps, a surtout été très fac
 
 -----------------
 <p style='color:blue' align='center'>
-Où sont-ils nés ?
+D'où viennent-ils ?
 </p>
 
 
@@ -49,7 +49,7 @@ Les coordonnées géographique qui permis la réalisation de ce graphique ont é
 
 -----------------
 <p style='color:blue'>
-Où nous ont-ils quitté ?
+Leurs lieux de décés (dernière adresse connue) ?
 </p>
 
 
@@ -59,7 +59,6 @@ Enfin nous avons une représentation cartographique des les lieux de décés. A 
 
 *Ps: Si la cartographie des lieux de naissances se rapproche trop de celle des lieux de décés, cela ne remet pas en cause la pertinence des données mais au contraire cela montre que nos données géographiques générées lors de la reconciliation, concordent avec celles fournies dans la base de données. En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décés, n'a tenu compte que de la dernière résidence connue (si celle-ci est connue).
 L'explication la plus plausible, c'est que la plus part n'aient pas changé de résidence au moment de leur mort. .
-
 
 
 <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ><a class='flourish-credit' href='https://public.flourish.studio/story/743592/?utm_source=embed&utm_campaign=story/743592' target='_top' style='text-decoration:aucun!important'><img alt='Made With flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;' > </a></div>

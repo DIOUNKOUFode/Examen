@@ -3,12 +3,7 @@
 DE QUOI S'AGIT-ILS ?
 </p>
 
-
 -----------------------------------------------------------------------------
--------------------------------------------------------------------------------------
------------------
-
-
 
 Dans la cadre de notre projet de fin d'étude du cours d'analyse de données et de datavisualisation, nous nous sommes intéressés au jeu de données issue de la plateforme open data nationale qui a été réalisé par la ville de Nancy: le Mémorial virtuel des morts pour la France lors des différents conflits militaires.  
 Il a été initié à l'occasion des commémorations du Centenaire de la Grande Guerre et édifié après la Première Guerre mondiale dans le cimetière du Sud, à proximité d'un carré militaire.
@@ -62,6 +57,16 @@ Enfin nous avons ici une représentation cartographique de leurs lieux de décè
 Si la cartographie des lieux de naissances se rapproche trop de celle des lieux de décès, cela ne remet pas en cause la pertinence des données. Au contraire cela fait montre de concordance et de fiabilité quant aux données recueillies et de celles générées lors de la réconciliation. En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décès, n'a tenu compte que de la dernière résidence connue (si celle-ci est connue), donc de cette même adresse, pour la plupart, qui figure déjà sur les états-civils. Il n’est donc pas étonnant que certains soldats par exemple aient les mêmes coordonnées comme étant leur lieu de naissance en plus de leur lieu de décès.L'explication la plus plausible, c'est que la plus part n'aient pas changé de résidence au moment de leur mort.
 
 <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
+
+-----------------
+-----------------
+<p style='color:red' align='left'>
+DIOUNKOU Fodé
+M2 Info-com, DEFI
+39016761@parisnanterre.fr
+</p>
+-----------------
+
 
 
 

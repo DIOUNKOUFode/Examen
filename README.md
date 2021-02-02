@@ -1,5 +1,5 @@
 -----------------
-<p style='color:blue' align='center'>
+<p style='color:blue' align='center'><em>blue</em> 
 Mémorial virtuel des morts pour la France :
 </p>
 

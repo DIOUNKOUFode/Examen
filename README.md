@@ -56,15 +56,16 @@ Si la cartographie des lieux de naissances se rapproche trop de celle des lieux 
 
 En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décès, n'a tenu compte que de leur dernière résidence connue (si celle-ci est connue). Et donc, pour la plupart, c'est la même adresse que celle qui figure déjà sur leurs états-civils. Il n’est donc pas étonnant que la localisationn de certains soldats par exemple reste inchangée. 
 
-En somme, comme vous pourrez le constater dans notre historique de parcours dans openrefine, il nous arrive de déplacé certaine colonne lors de la réalisation des cartes, d'imposer une séparation en deux colonnes pour les latitudes et longitudes pour répondre à la nomenclature du graphique que nous voulons réaliser.
-Par ailleurs, nous avons toujours exporté nos fichiers dans openrefine uniquement au format csv. 
-Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le projet, pour cause, on manipule le fichier en fonction de la représentation qu'on veut se faire. Par conséquent, il arrive qu'on défasse des modifications déjà faites et en refaire de nouvelles.
-
------------------
+----------------
 <p style='color:blue' align='center'>
 +Hommage <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div></p>
 
 -----------------
+En somme, comme vous pourrez le constater dans notre historique de parcours dans openrefine, il nous arrive de déplacé certaine colonne lors de la réalisation des cartes, d'imposer une séparation en deux colonnes pour les latitudes et longitudes pour répondre à la nomenclature du graphique que nous voulons réaliser.
+Par ailleurs, nous avons toujours exporté nos fichiers dans openrefine uniquement au format csv. 
+Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le projet, pour cause, on manipule le fichier en fonction de la représentation qu'on veut se faire. Par conséquent, il arrive qu'on défasse des modifications déjà faites et en refaire de nouvelles.
+
+------------------
 |Outils_De_Viz_utilisés: 
   - Openrefine
   - Flourish

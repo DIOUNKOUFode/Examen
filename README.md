@@ -22,7 +22,7 @@ QUI SONT CES HEROS QUI FIGURENT CE MEMORIAL ?
 
 Pour réaliser ce graphique, nous avons été contraints d'aller au préalable dans « Openrefine » pour nettoyer les données plus perceptibles.
 Rappelons déjà que notre fichier csv issue de la plateforme Open Data nationale est accompagné d'une table de sigle explicative. Celle-ci contient les significations des différents grades. Ainsi, pour nous éviter une alternance entre les deux fichiers tout au long de ce travail, nous avons considéré qu'il serait plus simple de remplacer tous les sigles par leurs significations contenues dans le second fichier complémentaire. Ce qui nous a permis de voir un peu plus clair dans cette base de données remplie d’abréviations militaires. 
-Ce processus d'édition, bien qu'il exige beaucoup de temps, a été d'un apport considérable. Il arrive cependant que certaines victimes dans la base de données soient dépourvues d'annotations, ils sont alors classés dans les facettes "blanc" par openrefine. Nous les avons alors attribués le "Grade inconnue" au lieu de les supprimer.
+Ce processus de croisement entre de la table de la colonne des grades abrégée à celle des sigles, bien qu'il exige beaucoup de temps, a été d'un apport considérable. Il arrive cependant que certaines victimes dans la base de données soient dépourvues d'annotations, ils sont alors classés dans les facettes "blanc" par openrefine. Nous les avons alors attribués le "Grade inconnue" au lieu de les supprimer. 
 
 <iframe src='https://flo.uri.sh/visualisation/5137249/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'></div>
 
@@ -48,13 +48,17 @@ LEURS LIEUX DE DECES/DERNIERE ADRESSE CONNUE ?
 </p>
 
 -----------------
-Enfin nous avons ici une représentation cartographique de leurs lieux de décès. A l'instar de la première, cette deuxième carte indique aussi une forte concentration  des victimes dans le Hauts-de-France, Bourgogne-Franche-Comté, l'Île-de-France et le Grand Est surtout. Les Nancéiens restent logiquement les plus représenté.   
+Enfin nous avons ici une représentation cartographique de leurs lieux de décès. A l'instar de la première, cette deuxième carte indique aussi une forte concentration  des victimes dans le Hauts-de-France, Bourgogne-Franche-Comté, l'Île-de-France et le Grand Est surtout. Les Nancéiens restent logiquement les plus représenté.    
 
 <iframe src='https://flo.uri.sh/visualisation/5137319/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div>
 
 Si la cartographie des lieux de naissances se rapproche trop de celle des lieux de décès, cela ne doit pas néanmoins remettre en cause la pertinence des données. Au contraire cela fait montre de concordance et de fiabilité des données recueillies et de celles générées lors de la réconciliation. 
 
 En effet, les lieux de naissances de ces victimes ont été établis à partir de leur état-civil. Parallèlement, le recensement des lieux de décès, n'a tenu compte que de leur dernière résidence connue (si celle-ci est connue). Et donc, pour la plupart, c'est la même adresse que celle qui figure déjà sur leurs états-civils. Il n’est donc pas étonnant que la localisationn de certains soldats par exemple reste inchangée. 
+
+En somme, comme vous pourrez le constater dans notre historique de parcours dans openrefine, il nous arrive de déplacé certaine colonne lors de la réalisation des cartes, d'imposer une séparation en deux colonnes pour les latitudes et longitudes pour répondre à la nomenclature du graphique que nous voulons réaliser.
+Par ailleurs, nous avons toujours exporté nos fichiers dans openrefine uniquement au format csv. 
+Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le projet, pour cause, on manipule le fichier en fonction de la représentation qu'on veut se faire. Par conséquent, il arrive qu'on défasse des modifications déjà faites et en refaire de nouvelles.
 
 -----------------
 <p style='color:blue' align='center'>

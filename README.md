@@ -18,7 +18,6 @@ Par conséquent, "les données proposées ci-dessous présentent pour chaque sol
 Qui sont les héros qui figurent dans ce Mémorial ?
 </p>
 
-
 -----------------
 
 Le graphique ci-dessous est une représentation en cercles emballés qui permet d'avoir une vue d'ensemble des héros morts, tant au niveau nombre, que de leur composition (grade). Il apparait naturellement dans ces cercles imbriqués que les	Soldats sont plus nombreux, suivi des Sergents, les Caporals et ceux dits "Inconnus". Ils sont nombreux à être dépourvu de grade dans cette base de données mais s'ils y figurent, c'est parce qu'ils l'ont mérité, d'où toute la logique de les représenter. 

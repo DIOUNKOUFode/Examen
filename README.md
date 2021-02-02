@@ -65,6 +65,97 @@ En somme, comme vous pourrez le constater dans notre historique de parcours dans
 Par ailleurs, nous avons toujours exporté nos fichiers dans openrefine uniquement au format csv. 
 Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le projet, pour cause, on manipule le fichier en fonction de la représentation qu'on veut se faire. Par conséquent, il arrive qu'on défasse des modifications déjà faites et en refaire de nouvelles.
 
+```Historique Openrefine
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Nom",
+    "description": "Remove column Nom"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Departement de naissance",
+    "description": "Remove column Departement de naissance"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Carte CcommuneDeNaissance",
+    "description": "Remove column Carte CcommuneDeNaissance"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Latitude commune de naissance",
+    "index": 0,
+    "description": "Move column Latitude commune de naissance to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Longitude commune de naissance",
+    "index": 0,
+    "description": "Move column Longitude commune de naissance to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Longitude commune de naissance",
+    "index": 1,
+    "description": "Move column Longitude commune de naissance to position 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Nom conflit",
+    "index": 0,
+    "description": "Move column Nom conflit to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Latitude Commune de deces",
+    "index": 0,
+    "description": "Move column Latitude Commune de deces to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Longitude Commune de deces",
+    "index": 0,
+    "description": "Move column Longitude Commune de deces to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Prenoms",
+    "index": 0,
+    "description": "Move column Prenoms to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Grade",
+    "index": 0,
+    "description": "Move column Grade to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Corps",
+    "index": 0,
+    "description": "Move column Corps to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Numero matricule",
+    "index": 0,
+    "description": "Move column Numero matricule to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Nom conflit",
+    "index": 0,
+    "description": "Move column Nom conflit to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Grade",
+    "index": 2,
+    "description": "Move column Grade to position 2"
+  }
+]
+```
 ------------------
 |Outils_De_Viz_utilisés: 
   - Openrefine

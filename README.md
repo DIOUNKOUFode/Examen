@@ -44,7 +44,7 @@ Les coordonnées géographiques ayant permis la réalisation de ce graphique ont
 
 -----------------
 <p style='color:blue' align='center'>
-LEURS LIEUX DE DECES/DERNIERE ADRESSE CONNUE ?
+LEURS DERNIERES ADRESSES CONNUES ?
 </p>
 
 -----------------

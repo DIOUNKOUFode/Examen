@@ -50,10 +50,7 @@ https://wiki.bsf-intranet.org/doku.php?id=contenus_education_et_formation:select
 <p style='color:blue' align='center'>
 +Hommage <iframe src='https://flo.uri.sh/story/743592/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' ></iframe><div style='width:100%!; margin-top:4px!important;text-align:right!important;' ></div></p>
 
------------------
-En somme, comme vous pourrez le constater dans notre historique de parcours dans openrefine, il nous arrive de déplacé certaine colonne lors de la réalisation des cartes, d'imposer une séparation en deux colonnes pour les latitudes et longitudes pour répondre à la nomenclature du graphique que nous voulons réaliser.
-Par ailleurs, nous avons toujours exporté nos fichiers dans openrefine uniquement au format csv. 
-Il est important de préciser que notre historique peut ne pas contenir toutes les modifications faites durant le tout le long du projet, pour cause, il nous arrive de créer un nouveau projet sur un fichier qu'on a téléchargé à partir des modifications faites la veille sur open refine. Ce qui fait que nous avons plus d'un historique de parcours sur openrefine. Nous avons mis en bas de pages deux notre historique la plus pertinente.
+--------------
 
 ------------------
 <p style='color:red' align='center'>

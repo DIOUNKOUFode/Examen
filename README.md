@@ -24,7 +24,7 @@ Pour réaliser ce graphique, nous avons été contraints d'aller au préalable d
 Rappelons déjà que notre fichier csv issue de la plateforme Open Data nationale est accompagné d'une table de sigle explicative. Celle-ci contient les significations des différents grades. Ainsi, pour nous éviter une alternance entre les deux fichiers tout au long de ce travail, nous avons considéré qu'il serait plus simple de remplacer tous les sigles par leurs significations contenues dans le second fichier complémentaire. Ce qui nous a permis de voir un peu plus clair dans cette base de données remplie d’abréviations militaires. 
 Ce processus de croisement entre de la table de la colonne des grades abrégée à celle des sigles, bien qu'il exige beaucoup de temps, a été d'un apport considérable. Il arrive cependant que certaines victimes dans la base de données soient dépourvues d'annotations, ils sont alors classés dans les facettes "blanc" par openrefine. Nous les avons alors attribués le "Grade inconnue" au lieu de les supprimer. 
 
-![1](https://user-images.githubusercontent.com/77511932/118308534-5964ec80-b4ec-11eb-9ca0-b2dba8f706f6.jpeg)
+![1](https://user-images.githubusercontent.com/77511932/118308659-84e7d700-b4ec-11eb-88ba-260e7f7a2e33.jpeg)
 Le graphique ci-dessus est donc une représentation sous forme de cercles emballés qui permet d'avoir une vue d'ensemble des héros nancéiens morts au combat, tant au niveau de leur nombre, que de leur hiérarchie. Il y apparait naturellement que les Soldats sont plus nombreux, suivi des Sergents, les Caporaux et ceux dits "Inconnus". 
 
 

@@ -1,4 +1,3 @@
-![1](https://user-images.githubusercontent.com/77511932/118308514-536f0b80-b4ec-11eb-8ded-ffb0021d0a8c.jpeg)
 -----------------------------------------------------------------------------
 <p style='color:blue' align='center'>
 DE QUOI S'AGIT-IL ?

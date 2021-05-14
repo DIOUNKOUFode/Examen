@@ -2,7 +2,6 @@
 <p style='color:blue' align='center'>
 DE QUOI S'AGIT-IL ?
 </p>
-
 -----------------------------------------------------------------------------
 
 Dans la cadre de notre projet de fin d'étude en cours d'analyse de données et de datavisualisation, nous nous sommes intéressés au jeu de données issue de la plateforme open data nationale qui a été réalisé par la ville de Nancy: le Mémorial virtuel des morts pour la France lors des différents conflits militaires.  

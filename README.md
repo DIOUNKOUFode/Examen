@@ -17,11 +17,11 @@ Formation à OLIP par Stéphane
 https://www.youtube.com/watch?v=CWojM5CEEEo&feature=youtu.be
 
 Liens vers la plateforme OMEKA: https://omeka.tm.bsf-intranet.org/admin/
-Mes accès ID : fode.diounkou / mdp : Lalamperouge
+Mes accès ID : 
 
 Liens vers ma boite e-mail (Zimbra) de travail à BSF
 https://mail.bibliosansfrontieres.org/
-user : fode.diounkou / pass: Les100pourcentrouges
+user :
 
 -----------------
 <p style='color:blue' align='center'>
